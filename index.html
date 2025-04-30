@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Compras</h1>
+
+    <form id="item-form">
+      <input type="text" id="nome" placeholder="Nome do item" required />
+      <input type="number" id="quantidade" placeholder="Quantidade" min="1" required />
+      <input type="number" id="preco" placeholder="Preço unitário (R$)" step="0.01" required />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Qtd</th>
+          <th>Preço</th>
+          <th>Total</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="lista-itens">
+        <!-- Itens vão aparecer aqui -->
+      </tbody>
+    </table>
+
+    <div class="total">
+      Total: R$ <span id="valor-total">0.00</span>
+    </div>
+
+    <button id="atualizar-api">Atualizar Sistema (API)</button>
+    <button id="redefinir-lista" class="botao-reset">Redefinir Lista</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
