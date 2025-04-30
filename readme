@@ -1,0 +1,31 @@
+Lista de Compras
+Este projeto é uma aplicação web simples para gerenciamento de uma lista de compras. Os usuários podem adicionar itens à lista, definir a quantidade e o preço de cada item, e visualizar o valor total das compras. Além disso, o sistema permite que os itens sejam excluídos ou a lista seja redefinida conforme a necessidade.
+Funcionalidades
+Adicionar Itens: O usuário pode adicionar itens à lista, informando o nome, quantidade e preço.
+
+
+Cálculo Automático: O valor total de cada item é calculado automaticamente com base na quantidade e no preço unitário. O total geral também é atualizado em tempo real.
+
+
+Excluir Itens: O usuário pode excluir qualquer item da lista de compras.
+
+
+Redefinir Lista: É possível redefinir a lista de compras para um conjunto predefinido de itens básicos (Arroz, Feijão, Café, Pão, Carne bovina, Óleo, Leite).
+
+
+Atualização Simulada via API: O sistema simula a atualização de dados para um sistema externo ao clicar em um botão.
+
+
+Tecnologias Utilizadas
+HTML: Estruturação da página.
+
+
+CSS: Estilos e responsividade da interface.
+
+
+JavaScript: Lógica para manipulação dos dados da lista, cálculos e interação com o usuário.
+
+
+Como Rodar o Projeto
+Clone este repositório para o seu ambiente local:
+
